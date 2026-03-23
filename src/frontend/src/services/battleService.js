@@ -11,10 +11,7 @@ export async function attack(attacker, damage) {
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({
-      attacker,
-      damage,
-    }),
+    body: JSON.stringify({ attacker, damage }),
   });
 
   return await response.json();
