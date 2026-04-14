@@ -4,11 +4,11 @@ Juego de batalla por turnos entre dos jugadores en tiempo real, construido con u
 
 ---
 
-## 📸 Captura de pantalla
+## 📸 Captura de pantalla de la batalla pokemon
 
-> _Adjunta aquí una captura de pantalla del juego funcionando en dos pestañas del navegador._
->
-> ![Poke Battle funcionando](./screenshot.png)
+<img width="1470" height="635" alt="image" src="https://github.com/user-attachments/assets/7b17f199-2c5f-41bd-a192-44a0031dc613" />
+<img width="1428" height="673" alt="image" src="https://github.com/user-attachments/assets/714b3275-889f-4a87-a653-9ab801e52c95" />
+
 
 ---
 
