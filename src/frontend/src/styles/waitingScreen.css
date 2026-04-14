@@ -1,0 +1,56 @@
+.wait-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: 'PokemonClassic', sans-serif;
+  gap: 6px;
+}
+
+.wait-title {
+  font-size: 10px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.4; }
+}
+
+.wait-dots {
+  display: flex;
+  gap: 4px;
+  font-size: 20px;
+  color: #555;
+}
+
+.dot { animation: blink 1.2s infinite; }
+.d2  { animation-delay: 0.4s; }
+.d3  { animation-delay: 0.8s; }
+
+@keyframes blink {
+  0%, 100% { opacity: 0; }
+  50%       { opacity: 1; }
+}
+
+.wait-info {
+  font-size: 7px;
+  color: #444;
+  margin: 0;
+}
+
+.wait-info strong {
+  color: #c00;
+}
+
+.wait-hint {
+  font-size: 5.5px;
+  color: #777;
+  text-align: center;
+  margin: 0;
+  line-height: 1.8;
+}

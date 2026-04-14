@@ -1,0 +1,15 @@
+com\example1\battlepokemon\event\listener\FirebaseWriteEventListener.class
+com\example1\battlepokemon\service\BattleService.class
+com\example1\battlepokemon\service\BattleEventPublisher.class
+com\example1\battlepokemon\model\AttackRequest.class
+com\example1\battlepokemon\model\Pokemon.class
+com\example1\battlepokemon\controller\TestDBController.class
+com\example1\battlepokemon\model\BattleStatus.class
+com\example1\battlepokemon\BattlepokemonApplication.class
+com\example1\battlepokemon\controller\BattleController.class
+com\example1\battlepokemon\service\FirebaseService.class
+com\example1\battlepokemon\model\BattleState.class
+com\example1\battlepokemon\model\SelectRequest.class
+com\example1\battlepokemon\controller\TestDBController$PokemonWriteRequest.class
+com\example1\battlepokemon\event\FirebaseWriteRequestedEvent.class
+com\example1\battlepokemon\config\FirebaseConfig.class

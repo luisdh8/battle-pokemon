@@ -1,0 +1,148 @@
+.battle-screen {
+  display: flex;
+  flex-direction: column;
+  font-family: 'PokemonClassic', sans-serif;
+  font-size: 7px;
+  height: 100%;
+}
+
+/* ── Battle zone (sprites + info) ── */
+.battle-zone {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 4px;
+  padding: 4px;
+  height: 60%;
+}
+
+.enemy-info {
+  text-align: left;
+  align-self: start;
+}
+
+.enemy-info p,
+.player-info p {
+  margin: 0 0 2px 0;
+  font-weight: bold;
+}
+
+.enemy-sprite {
+  text-align: right;
+  align-self: end;
+}
+
+.player-sprite {
+  text-align: left;
+  align-self: start;
+}
+
+.enemy-sprite img,
+.player-sprite img {
+  width: 68px;
+  image-rendering: pixelated;
+}
+
+.player-info {
+  text-align: left;
+  align-self: end;
+  margin-bottom: 6px;
+}
+
+/* ── HP bar ── */
+.hp-bar {
+  width: 80px;
+  height: 7px;
+  background-color: #ccc;
+  border: 1px solid #000;
+  margin-top: 2px;
+}
+
+.hp-fill {
+  height: 100%;
+  transition: width 0.4s ease, background-color 0.4s ease;
+}
+
+.hp-text {
+  font-size: 6px;
+  color: #333;
+}
+
+/* ── Text / action zone ── */
+.text-zone {
+  flex: 1;
+  background-color: aliceblue;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  padding: 4px 6px;
+  display: flex;
+  align-items: center;
+}
+
+.battle-text {
+  margin: 0;
+  font-size: 7px;
+  color: #111;
+}
+
+.winner-text {
+  font-size: 8px;
+  font-weight: bold;
+  color: #c00;
+}
+
+.action-list {
+  width: 100%;
+}
+
+.action-item {
+  padding: 2px 4px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 7px;
+  color: #111;
+  transition: background 0.1s;
+}
+
+.action-item.active-turn {
+  background-color: #8af;
+  font-weight: bold;
+}
+
+.action-item:not(.active-turn) {
+  color: #999;
+  cursor: default;
+}
+
+.turn-indicator {
+  margin-top: 3px;
+  font-size: 6px;
+  color: #555;
+  border-top: 1px solid #ccc;
+  padding-top: 2px;
+}
+
+/* ── Winner zone: mensaje + botón de regreso ── */
+.winner-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  width: 100%;
+}
+
+.go-home-btn {
+  font-family: 'PokemonClassic', sans-serif;
+  font-size: 6px;
+  background-color: #4a90d9;
+  color: #fff;
+  border: 1px solid #2a60a9;
+  border-radius: 4px;
+  padding: 3px 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.go-home-btn:hover {
+  background-color: #2a60a9;
+}

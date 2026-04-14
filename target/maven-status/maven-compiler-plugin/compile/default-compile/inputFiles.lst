@@ -1,0 +1,14 @@
+C:\Users\luisd\Downloads\battle-pokemon-v5\battle-pokemon-v5\src\main\java\com\example1\battlepokemon\BattlepokemonApplication.java
+C:\Users\luisd\Downloads\battle-pokemon-v5\battle-pokemon-v5\src\main\java\com\example1\battlepokemon\config\FirebaseConfig.java
+C:\Users\luisd\Downloads\battle-pokemon-v5\battle-pokemon-v5\src\main\java\com\example1\battlepokemon\controller\BattleController.java
+C:\Users\luisd\Downloads\battle-pokemon-v5\battle-pokemon-v5\src\main\java\com\example1\battlepokemon\controller\TestDBController.java
+C:\Users\luisd\Downloads\battle-pokemon-v5\battle-pokemon-v5\src\main\java\com\example1\battlepokemon\event\FirebaseWriteRequestedEvent.java
+C:\Users\luisd\Downloads\battle-pokemon-v5\battle-pokemon-v5\src\main\java\com\example1\battlepokemon\event\listener\FirebaseWriteEventListener.java
+C:\Users\luisd\Downloads\battle-pokemon-v5\battle-pokemon-v5\src\main\java\com\example1\battlepokemon\model\AttackRequest.java
+C:\Users\luisd\Downloads\battle-pokemon-v5\battle-pokemon-v5\src\main\java\com\example1\battlepokemon\model\BattleState.java
+C:\Users\luisd\Downloads\battle-pokemon-v5\battle-pokemon-v5\src\main\java\com\example1\battlepokemon\model\BattleStatus.java
+C:\Users\luisd\Downloads\battle-pokemon-v5\battle-pokemon-v5\src\main\java\com\example1\battlepokemon\model\Pokemon.java
+C:\Users\luisd\Downloads\battle-pokemon-v5\battle-pokemon-v5\src\main\java\com\example1\battlepokemon\model\SelectRequest.java
+C:\Users\luisd\Downloads\battle-pokemon-v5\battle-pokemon-v5\src\main\java\com\example1\battlepokemon\service\BattleEventPublisher.java
+C:\Users\luisd\Downloads\battle-pokemon-v5\battle-pokemon-v5\src\main\java\com\example1\battlepokemon\service\BattleService.java
+C:\Users\luisd\Downloads\battle-pokemon-v5\battle-pokemon-v5\src\main\java\com\example1\battlepokemon\service\FirebaseService.java

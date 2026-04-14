@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'PokemonClassic';
+  src: url('../assets/fonts/PokemonClassic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'PokemonClassic', sans-serif;
+}
+
+.gameboy {
+  background-color: #6d2aa6;
+  width: 300px;
+  height: 520px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* ── controls ── */
+.controls {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-buttons {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+/* D-pad */
+.dpad {
+  display: grid;
+  grid-template-columns: repeat(3, 25px);
+  grid-template-rows: repeat(3, 25px);
+  gap: 1px;
+}
+
+.dpad-button {
+  background-color: #222;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dpad-button.center {
+  background-color: #444;
+}
+
+/* A / B buttons */
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  background-color: #222;
+  color: white;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.1s;
+}
+
+.button:active {
+  opacity: 0.6;
+}
+
+/* Start / Select */
+.start-select {
+  display: flex;
+  gap: 20px;
+}
+
+.start,
+.select {
+  background-color: #222;
+  width: 30px;
+  height: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-select-labels {
+  display: flex;
+  font-size: 0.45rem;
+  gap: 22px;
+  margin-top: 5px;
+  color: #ddd;
+}
+
+.select-label {
+  margin-left: -2px;
+}
